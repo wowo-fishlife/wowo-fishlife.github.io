@@ -35,6 +35,10 @@ p.inter{
   text-indent:-3em;
 }
 
+p.notions{
+  margin-left:1em;
+}
+
 a image{
   border:none;
 }
