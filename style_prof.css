@@ -21,15 +21,18 @@ li {
 }
 
 p.art{
-  text-indent:1em;
+  margin-left:1em;
+  text-indent:-1em;
 }
 
 p.science{
-  text-indent:1em;
+  margin-left:1em;
+  text-indent:-1em;
 }
 
 p.inter{
-  text-indent:1em;
+  margin-left:1em;
+  text-indent:-1em;
 }
 
 a image{
