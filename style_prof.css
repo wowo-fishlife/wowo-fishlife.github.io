@@ -60,7 +60,7 @@ a image{
   text-align:left;
 }
 
-.profile{
+.prof_overview{
   background-color:white;
   color:black;
   max-width:1000px;
@@ -75,7 +75,7 @@ a image{
   padding-top:20px;
 }
 
-.prof_title{
+.prof_overview_title{
   background-color:#007bbb;
   color:white;
   height:70px;
@@ -83,7 +83,34 @@ a image{
   font-size:40px;
 }
 
-.prof_cont{
+.prof_overview_cont{
+  padding:20px;
+}
+
+.prof_detail{
+  background-color:white;
+  color:black;
+  max-width:1000px;
+  height:auto;
+  text-align:center;
+  margin-left:auto;margin-right:auto;
+  text-align:left;
+  border:3px;
+  border-color:black;
+  border-radius:8px;
+  margin-top:20px;
+  padding-top:20px;
+}
+
+.prof_detail_title{
+  background-color:#007bbb;
+  color:white;
+  height:70px;
+  padding-left:20px;
+  font-size:40px;
+}
+
+.prof_detail_cont{
   padding:20px;
 }
 
