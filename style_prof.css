@@ -20,6 +20,10 @@ li {
   list-style:none;
 }
 
+p{
+  text-indent:1em;
+}
+
 a image{
   border:none;
 }
