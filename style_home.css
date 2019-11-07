@@ -30,7 +30,6 @@ a image {
   height:150px;
   width: 100%;
   position:relative;
-  white-space:nowrap;
 }
 
 .header-logo{
@@ -98,7 +97,6 @@ a image {
   top: 0;
   z-index: 9999;
   width:60%;
-  transform:skewX(15deg);
   height:100vh;
   background-color:black;
   transition: .3s ease-in-out;
