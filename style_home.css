@@ -59,7 +59,6 @@ hr{
   height:90px;
   float:right;
   display:block;
-  margin-top:25px;
 }
 
 #menu-open span, #menu-open span:before, #menu-open span:after {
@@ -74,10 +73,10 @@ hr{
 }
   
 #menu-open span:before {
-  bottom: -25px;
+  bottom: -8px;
 }
 #menu-open span:after {
-  bottom: -50px;
+  bottom: -16px;
 }
 
 #menu-close {
