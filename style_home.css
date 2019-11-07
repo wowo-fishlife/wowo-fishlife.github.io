@@ -71,8 +71,6 @@ hr{
   display: block;
   content: ‘’;
   cursor: pointer;
-  top:20px;
-  left:15px;
 }
   
 #menu-open span:before {
