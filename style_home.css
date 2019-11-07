@@ -1,128 +1,102 @@
-@charset "UTF-8";
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&subset=japanese');
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap');
+<!DOCTYPE html>
+<html lang="ja">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>はるのーと</title>
+    <link rel="stylesheet" href="style_home.css">
+  </head>
 
-*{
-  margin:0px;
-  padding:0px;
-}
+  <body>
+    <div class ="header">
+      <div class = "header-logo">
+        <a href = "index.html">
+          <img src = "323D4F43-83B7-45B3-86DA-AD0D7146DBF7.png" alt = "はるのーと" width="450" height="90" >
+        </a>
+      </div>
 
-body {
-  font-family: "Noto Serif JP";
-  background-color:#DFF2FC;
-  font-size:20px;
-  min-height:100vh;
-  display:flex;
-  flex-direction:column;
-}
+      <div id = "menu_drawer">
+        <input id="menu-input" type="checkbox" class="menu-unshown">
+      <label id="menu-open" for="menu-input"><span></span></label>
+      <label class="menu-unshown" id="menu-close" for="menu-input"></label>
+          
+        <div id="menu-content">
+          <div id="box">
+          <div id="home">
+            <a href="index.html"></a>
+            ホーム
+          </div>
+          <hr width=80%>
+          <div id="overview">
+            <a href="overview.html"></a>
+            概要
+          </div>
+          <hr width=80%>
+          <div id="profile">
+            <a href=“profile.html”></a>
+            自己紹介
+          </div>
+          <hr width=80%>
+          <div id="links">
+            <a href=“links.html”></a>
+            リンク集
+          </div>
+          <hr width=80%>
+          <div id="others">
+            <a href=“others.html”></a>
+            その他
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-li {
-  list-style:none;
-}
-
-a image {
-  border:none;
-}
-
-.header{
-  background-color:#3C4174;
-  color:white;
-  height:150px;
-  width: 100%;
-}
-
-.header-logo{
-  float:left;
-  margin:28px 20px 18px 40px;
-}
-
-.header-list{
-  float:right;
-  margin-top:10px;
-  margin-right:15px;
-}
-
-.header-list li{
-  float:left;
-  vertical-align:top;
-  padding:33px 20px;
-}
-
-.header-list li a{
-  text-decoration:none;
-  color:white;
-  font-size:30px;
-}
-
-.main{
-  width:90vw;
-  text-align:center;
-  margin-left:auto;margin-right:auto;
-  text-align:left;
-}
-
-.news{
-  background-color:white;
-  color:black;
-  height:auto;
-  max-width:1000px;
-  text-align:center;
-  margin-left:auto;margin-right:auto;
-  text-align:left;
-  border:3px;
-  border-color:black;
-  border-radius:8px;
-  padding-top:20px;
-  margin-top:20px;
-}
-.news_title{
-  background-color:#007bbb;
-  color:white;
-  height:70px;
-  padding-left:20px;
-  font-size:40px;
-}
-
-.news_cont{
-  padding:20px;
-}
-
-.overview{
-  background-color:white;
-  color:black;
-  height:auto;
-  max-width:1000px;
-  text-align:center;
-  margin-left:auto;margin-right:auto;
-  text-align:left;
-  border:3px;
-  border-color:black;
-  border-radius:8px;
-  padding-top:20px;
-  margin-top:20px;
-  margin-bottom:20px;
-}
-
-.overview_title{
-  background-color:#007bbb;
-  color:white;
-  height:70px;
-  padding-left:20px;
-  margin-bottom:10px;
-  font-size:40px;
-}
-
-.overview_cont{
-  padding:20px;
-}
-
-.footer{
-  height:100px;
-  margin-top:auto;
-  background-color:#3C4174;
-}
-
-.footer-logo {
-  text-align:center;
-  margin:30px auto 0px auto;
-}
+    <div class="main">
+      <div class="news">
+        <div class="news_title">
+          <p>
+          お知らせ
+          </p>
+        </div>
+        <div class="news_cont">
+          <div class="news_modified_date">
+            <p>
+              <script type="text/javascript"><!--
+   document.write('最終更新日:' + document.lastModified);
+// --></script>
+            </p>
+          </div>
+          <br>
+          <div class="news_detail">
+            <p>
+              △準備中△
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="overview">
+        <div class="overview_title">
+          <p>
+          概要
+          </p>
+        </div>
+        <div class="overview_cont">
+          <p>
+            ここは紺魚<a href = "https://twitter.com/wowo_fishlife">@wowo_fishlife</a>のホームページです。
+            △準備中△
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer">
+      <div class="footer-logo">
+        <a href = "index.html">
+          <img src = "323D4F43-83B7-45B3-86DA-AD0D7146DBF7.png" alt = "はるのーと" width="200" >
+        </a>
+      </div>
+    </div>
+    
+  </body>
+</html>
