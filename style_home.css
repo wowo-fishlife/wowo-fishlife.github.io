@@ -110,7 +110,6 @@ hr{
   transform: translateX(-105%);
   text-align:center;
   font-size:40px;
-  padding:auto;
 }
 
 #box{
@@ -119,8 +118,6 @@ hr{
   top: 50%;
   -webkit-transform : translateY(-50%);
   transform : translateY(-50%);
-  margin-right:auto;
-  margin-left:auto;
 }
 
 #menu-input:checked ~ #menu-close {
