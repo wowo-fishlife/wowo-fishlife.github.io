@@ -135,8 +135,6 @@ a image {
   vertical-align:center;
   position:relative;
   z-index:1;
-  margin-bottom;5vh;
-  margin-top:5vh;
 }
 
 #home a{
@@ -163,8 +161,6 @@ a image {
   border-bottom:2px;
   position:relative;
   z-index:1;
-  margin-bottom:5vh;
-  margin-top:5vh;
 }
 
 #overview a{
@@ -191,8 +187,6 @@ a image {
   border-bottom:2px;
   position:relative;
   z-index:1;
-  margin-bottom:5vh;
-  margin-top:5vh;
 }
 
 #profile a{
@@ -219,8 +213,6 @@ a image {
   border-bottom:2px;
   position:relative;
   z-index:1;
-  margin-bottom:5vh;
-  margin-top:5vh;
 }
 
 #links a{
