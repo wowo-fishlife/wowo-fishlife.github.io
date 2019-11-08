@@ -151,7 +151,7 @@ a image {
 #footer-logo {
   font-family: 'ZCOOL XiaoWei', serif;
   font-size:40px;
-  line-height:100px;
+  line-height:100%;
   text-decoration:none;
 }
 
