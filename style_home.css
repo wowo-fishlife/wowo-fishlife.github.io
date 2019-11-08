@@ -12,13 +12,14 @@
 body {
   font-family: 'Noto Serif JP', 'Merriweather', serif;
   font-size:20px;
-}
-
-#wrapper {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   background-color:#B5E8E8;
+}
+
+#wrapper {
+
 }
 
 ul {
@@ -124,6 +125,7 @@ a image {
   color:white;
   position:absolute;
   bottom:0px;
+  margin-top:auto;
 }
 
 #footer-logo {
