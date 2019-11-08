@@ -10,7 +10,7 @@
 }
 
 body {
-  font-family: 'Noto Serif JP';
+  font-family: 'Noto Serif JP', 'Merriweather', serif;
   background-color:#B5E8E8;
   font-size:20px;
   min-height:100vh;
