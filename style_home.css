@@ -114,6 +114,7 @@ a image {
   width:100%;
   background-color:#F26D85;
   position:relative;
+  bottom:0;
 }
 
 #footer-logo {
