@@ -12,14 +12,13 @@
 body {
   font-family: 'Noto Serif JP', 'Merriweather', serif;
   font-size:20px;
+}
+
+#wrapper {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   background-color:#B5E8E8;
-}
-
-#wrapper {
-
 }
 
 ul {
@@ -36,6 +35,10 @@ a {
 
 a image {
   border:none;
+}
+
+.status {
+  font-family: "Merriweather", serif;
 }
 
 #header{
