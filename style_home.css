@@ -19,8 +19,9 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  height:auto;
+  height:100%;
   background-color:#B5E8E8;
+  position:relative;
 }
 
 ul {
