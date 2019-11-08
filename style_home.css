@@ -12,9 +12,7 @@
 body {
   font-family: 'Noto Serif JP', 'Merriweather', serif;
   font-size:20px;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+  overflow:scroll;
 }
 
 #wrapper {
