@@ -53,7 +53,7 @@ a image {
 
 #header-logo{
   display:block;
-  font-size:60px;
+  font-size:80px;
   margin-left:auto;
   margin-right:auto;
 }
@@ -71,30 +71,42 @@ a image {
 }
 
 #news{
-  margin-top:1em;
+  margin-top:2em;
 }
 
 .news-title{
   font-family: 'ZCOOL XiaoWei', serif;
-  font-size:25px;
+  font-size:40px;
+}
+
+.news-cont{
+  margin-top:1em;
 }
 
 #profile{
-  margin-top:1em;
+  margin-top:2em;
 }
 
 .prof-title{
   font-family: 'ZCOOL XiaoWei', serif;
-  font-size:25px;
+  font-size:40px;
+}
+
+.prof-cont{
+  margin-top:1em;
 }
 
 #links{
-  margin-top:1em;
+  margin-top:2em;
 }
 
 .links-title{
   font-family: 'ZCOOL XiaoWei', serif;
-  font-size:25px;
+  font-size:40px;
+}
+
+.links-cont{
+  margin-top:1em;
 }
 
 #footer{
@@ -111,4 +123,8 @@ a image {
   top: 50%;
   -webkit-transform : translateY(-50%);
   transform : translateY(-50%);
+}
+
+#footer-logo a {
+  text-decoration:none;
 }
