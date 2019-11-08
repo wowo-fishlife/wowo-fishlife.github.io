@@ -1,4 +1,4 @@
-@charset “UTF-8”;
+@charset 'UTF-8';
 @import url(‘https://fonts.googleapis.com/css?family=Noto+Sans+JP&subset=japanese’);
 @import url(‘https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap’);
 @import url(<link href=‘https://fonts.googleapis.com/earlyaccess/hannari.css’);
@@ -10,7 +10,7 @@
 }
 
 body {
-  font-family: “Noto Serif JP”;
+  font-family: 'Noto Serif JP';
   background-color:#B5E8E8;
   font-size:20px;
   min-height:100vh;
