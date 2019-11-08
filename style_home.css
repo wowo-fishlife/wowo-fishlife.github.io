@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&subset=japanese');
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap');
-@import url('https://fonts.googleapis.com/earlyaccess/hannari.css');
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
 @import url('https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei&display=swap');
 
 *{
@@ -113,17 +113,15 @@ a image {
   height:100px;
   width:100%;
   background-color:#F26D85;
-  position:relative;
+  position:absolute;
   bottom:0;
+  vertical-align:center;
 }
 
 #footer-logo {
   font-family: 'ZCOOL XiaoWei', serif;
   font-size:40px;
-  position: absolute;
-  top: 50%;
-  -webkit-transform : translateY(-50%);
-  transform : translateY(-50%);
+  display:inline;
 }
 
 #footer-logo a {
