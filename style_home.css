@@ -143,6 +143,7 @@ a image {
   position:absolute;
   bottom:0;
   display:block;
+  margin-top:2em;
 }
 
 #footer-logo {
