@@ -26,6 +26,10 @@ li {
   list-style:none;
 }
 
+a {
+    color:#F28E85;
+}
+
 a image {
   border:none;
 }
@@ -114,9 +118,9 @@ a image {
   height:100px;
   width:100%;
   background-color:#F26D85;
+  color:white;
   position:absolute;
   bottom:0;
-  vertical-align:center;
 }
 
 #footer-logo {
@@ -126,10 +130,3 @@ a image {
   text-decoration:none;
 }
 
-#footer-logo a {
-    text-decoration: none;
-}
-
-#footer-logo a:hover {
-    text-decoration: underline;
-}
