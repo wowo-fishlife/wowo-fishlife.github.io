@@ -11,7 +11,6 @@
 
 body {
   font-family: 'Noto Serif JP', 'Merriweather', serif;
-  background-color:#B5E8E8;
   font-size:20px;
   min-height:100vh;
   display:flex;
@@ -22,6 +21,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-color:#B5E8E8;
 }
 
 footer {
