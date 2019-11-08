@@ -109,6 +109,19 @@ a image {
   margin-top:1em;
 }
 
+#interests{
+  margin-top:2em;
+}
+
+#interests-title{
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-size:40px;
+}
+
+#interests-cont{
+  margin-top:1em;
+}
+
 #links{
   margin-top:2em;
 }
