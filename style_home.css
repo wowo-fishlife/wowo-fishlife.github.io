@@ -74,12 +74,12 @@ a image {
   margin-top:2em;
 }
 
-.news-title{
+#news-title{
   font-family: 'ZCOOL XiaoWei', serif;
   font-size:40px;
 }
 
-.news-cont{
+#news-cont{
   margin-top:1em;
 }
 
@@ -87,12 +87,12 @@ a image {
   margin-top:2em;
 }
 
-.prof-title{
+#prof-title{
   font-family: 'ZCOOL XiaoWei', serif;
   font-size:40px;
 }
 
-.prof-cont{
+#prof-cont{
   margin-top:1em;
 }
 
@@ -100,12 +100,12 @@ a image {
   margin-top:2em;
 }
 
-.links-title{
+#links-title{
   font-family: 'ZCOOL XiaoWei', serif;
   font-size:40px;
 }
 
-.links-cont{
+#links-cont{
   margin-top:1em;
 }
 
