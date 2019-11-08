@@ -62,6 +62,7 @@ a image {
   display:block;
   margin-left:auto;
   margin-right:auto;
+  font-size:30px;
 }
 
 #main{
@@ -123,4 +124,12 @@ a image {
   font-size:40px;
   line-height:100px;
   text-decoration:none;
+}
+
+#footer-logo a {
+    text-decoration: none;
+}
+
+#footer-logo a:hover {
+    text-decoration: underline;
 }
