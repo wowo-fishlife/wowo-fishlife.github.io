@@ -42,6 +42,13 @@ a image {
   font-family: 'ZCOOL XiaoWei', serif;
 }
 
+#header-box{
+  position: absolute;
+  top: 50%;
+  -webkit-transform : translateY(-50%);
+  transform : translateY(-50%);
+}
+
 #header-logo{
   display:block;
   font-size:60px;
