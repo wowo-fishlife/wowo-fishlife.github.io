@@ -121,9 +121,6 @@ a image {
 #footer-logo {
   font-family: 'ZCOOL XiaoWei', serif;
   font-size:40px;
-  display:inline;
-}
-
-#footer-logo a {
+  line-height:100px;
   text-decoration:none;
 }
