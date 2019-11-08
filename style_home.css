@@ -12,13 +12,14 @@
 body {
   font-family: 'Noto Serif JP', 'Merriweather', serif;
   font-size:20px;
+  background-color:#B5E8E8;
 }
 
 body, #wrapper {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color:#B5E8E8;
+ 
 }
 
 ul {
