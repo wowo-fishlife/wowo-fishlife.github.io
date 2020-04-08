@@ -89,6 +89,18 @@ a image {
   min-height:500px;
 }
 
+#projects{
+  margin-top:2em;
+}
+
+#projects-title{
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-size:40px;
+}
+
+#projects-cont{
+  margin-top:1em;
+}
 
 
 #footer{
