@@ -126,6 +126,19 @@ a image {
   margin-top:1em;
 }
 
+#projects{
+  margin-top:2em;
+}
+
+#projects-title{
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-size:40px;
+}
+
+#projects-cont{
+  margin-top:1em;
+}
+
 #links{
   margin-top:2em;
 }
