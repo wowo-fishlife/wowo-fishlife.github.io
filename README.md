@@ -1,7 +1,7 @@
 芸術的際網/艺术的际网/藝術的際網/Artistic-Internetting
 
 #概要/Overview
-これは紺魚(@wowo_fishlife)のウェブサイトを記述するパッケージです。
+これは紺魚(@haxibami)のウェブサイトを記述するパッケージです。
 
 #特徴/Features
 Google Fontの導入
