@@ -24,26 +24,6 @@ body {
   position:relative;
 }
 
-ul {
-  list-style:none;
-}
-
-li {
-  list-style:none;
-}
-
-a {
-    color:#F28E85;
-}
-
-a image {
-  border:none;
-}
-
-.status {
-  font-family: "Merriweather", serif;
-}
-
 #header{
   display:block;
   background-color:#F26D85;
@@ -87,69 +67,47 @@ a image {
   display:block;
 }
 
-#news{
+section{
   margin-top:2em;
 }
 
-#news-title{
+h2{
+  font-weight: normal;
   font-family: 'ZCOOL XiaoWei', serif;
   font-size:40px;
 }
 
-#news-cont{
+article{
   margin-top:1em;
 }
 
-#profile{
-  margin-top:2em;
+ul {
+  list-style:none;
 }
 
-#prof-title{
-  font-family: 'ZCOOL XiaoWei', serif;
-  font-size:40px;
+li {
+  list-style:none;
+  margin-bottom: 1em;
 }
 
-#prof-cont{
-  margin-top:1em;
+a {
+    color:#F28E85;
 }
 
-#interests{
-  margin-top:2em;
+a image {
+  border:none;
 }
 
-#interests-title{
-  font-family: 'ZCOOL XiaoWei', serif;
-  font-size:40px;
+.eng {
+  font-family: "Merriweather", serif;
 }
 
-#interests-cont{
-  margin-top:1em;
+address{
+  font-style: normal;
 }
 
-#projects{
-  margin-top:2em;
-}
-
-#projects-title{
-  font-family: 'ZCOOL XiaoWei', serif;
-  font-size:40px;
-}
-
-#projects-cont{
-  margin-top:1em;
-}
-
-#links{
-  margin-top:2em;
-}
-
-#links-title{
-  font-family: 'ZCOOL XiaoWei', serif;
-  font-size:40px;
-}
-
-#links-cont{
-  margin-top:1em;
+.links{
+  margin-bottom:1em;
 }
 
 #footer{
