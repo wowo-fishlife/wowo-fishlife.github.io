@@ -1,8 +1,4 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&subset=japanese');
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
-@import url('https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei&display=swap');
 
 *{
   margin:0px;
@@ -24,27 +20,7 @@ body {
   position:relative;
 }
 
-ul {
-  list-style:none;
-}
-
-li {
-  list-style:none;
-}
-
-a {
-    color:#F28E85;
-}
-
-a image {
-  border:none;
-}
-
-.status {
-  font-family: 'Merriweather', serif;
-}
-
-#header{
+header{
   display:block;
   background-color:#F26D85;
   color:white;
@@ -65,66 +41,109 @@ a image {
   transform : translate(-50%, -50%);
 }
 
-#header-logo{
-  display:block;
-  font-size:80px;
+main{
+  width:90vw;
+  min-height: 100vh;
+  text-align:center;
   margin-left:auto;
   margin-right:auto;
+  padding-bottom:200px;
+  display:block;
 }
 
-#subtitle{
+section{
+  margin-top:3em;
+}
+
+h1{
   display:block;
   margin-left:auto;
   margin-right:auto;
+  font-weight: normal;
+  font-size:80px;
+}
+
+h2{
+  font-weight: normal;
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-size:40px;
+}
+
+h3{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  font-weight: normal;
   font-size:30px;
 }
 
-#main{
-  width:90vw;
-  text-align:center;
-  margin-left:auto;margin-right:auto;
-  padding-bottom:200px;
-  display:block;
-  min-height:500px;
+p{
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
-#top{
-  margin-top:2em;
+ul{
+  margin: 2em auto;
+  list-style: none;
 }
 
-#top-title{
-  font-family: 'ZCOOL XiaoWei', serif;
-  font-size:40px;
+li {
+  list-style:none;
+  margin-bottom: 1em;
 }
 
-#top-cont{
-  margin-top:1em;
+a {
+  color:#F28E85;
 }
 
-#photos{
-  margin-top:1em;
+a image {
+  border:none;
 }
 
-#footer{
-  height:100px;
+address{
+  margin: 1em auto;
+}
+
+.eng {
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+address{
+  font-style: normal;
+}
+
+footer{
   width:100%;
-  background-color:#F26D85;
-  color:white;
-  position:absolute;
   bottom:0;
   display:block;
-  margin-top:auto;
+  margin: 20px auto 10px auto;
+  text-align: center;
 }
 
-#footer-logo {
-  font-family: 'ZCOOL XiaoWei', serif;
-  font-size:40px;
-  line-height:100px;
-  text-decoration:none;
-  margin-left:25px;
+.footer-line{
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+  background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc);
+  background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc);
+  background-image:      -o-linear-gradient(left, #ccc, #333, #ccc);
 }
 
-#footer-logo a {
-  color:white;
+.footer-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
   text-decoration:none;
+}
+
+.copyright{
+  font-size: 10px;
+}
+
+#footer-icon{
+  width: 50px;
+  border-radius: 10%;
 }
