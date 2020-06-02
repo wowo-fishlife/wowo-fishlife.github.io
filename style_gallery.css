@@ -1,14 +1,16 @@
 @charset "UTF-8";
 
+/*universal*/
+
 *{
-  margin:0px;
-  padding:0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
-  font-family: 'Noto Serif JP', 'Merriweather', serif;
-  font-size:20px;
-  overflow:scroll;
+  font-family: 'Merriweather', 'Noto Serif JP', serif;
+  font-size: 20px;
+  overflow: scroll;
 }
 
 #wrapper {
@@ -16,65 +18,70 @@ body {
   flex-direction: column;
   min-height: 100vh;
   height:100%;
-  background-color:#B5E8E8;
-  position:relative;
+  background-color: #B5E8E8;
 }
 
+a {
+  color:#F28E85;
+}
+
+a image {
+  border:none;
+}
+
+/*header*/
+
 header{
-  display:block;
-  background-color:#F26D85;
-  color:white;
-  height:200px;
+  height: 200px;
   width: 100%;
-  position:relative;
-  text-align:center;
+  position:relative; /*header-box centering*/
+  background-color: #F26D85;
   color:white;
-  font-family: 'ZCOOL XiaoWei', serif;
+  white-space: nowrap;
 }
 
 #header-box{
   display:block;
+  /*header-box centering start*/
   position: absolute;
   top: 50%;
   left:50%;
   -webkit-transform : translate(-50%, -50%);
   transform : translate(-50%, -50%);
-}
-
-main{
-  width:90vw;
-  min-height: 100vh;
-  text-align:center;
-  margin-left:auto;
-  margin-right:auto;
-  padding-bottom:200px;
-  display:block;
-}
-
-section{
-  margin-top:3em;
+  /*header-box centering end*/
+  text-align: center;
+  font-family: 'ZCOOL XiaoWei', serif;
 }
 
 h1{
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
   font-weight: normal;
   font-size:80px;
 }
 
 h2{
   font-weight: normal;
-  font-family: 'ZCOOL XiaoWei', serif;
-  font-size:40px;
+  font-size:30px;
+  }
+
+/*main*/
+
+main{
+  width:90vw;
+  min-height: 100vh;
+  margin: 0px auto;
+  padding-bottom:200px;
+  display:block;/*For IE10*/
+  text-align:center;
+}
+
+section{
+  margin-top:3em;
 }
 
 h3{
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
   font-weight: normal;
-  font-size:30px;
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-size:40px;
 }
 
 p{
@@ -88,20 +95,13 @@ ul{
 }
 
 li {
-  list-style:none;
   margin-bottom: 1em;
-}
-
-a {
-  color:#F28E85;
-}
-
-a image {
-  border:none;
+  list-style:none;
 }
 
 address{
   margin: 1em auto;
+  font-style: normal;
 }
 
 .eng {
@@ -109,32 +109,40 @@ address{
   font-family: 'Roboto', sans-serif;
 }
 
-address{
-  font-style: normal;
-}
+/*footer*/
 
 footer{
-  width:100%;
+  width:90vw;
   bottom:0;
-  display:block;
   margin: 20px auto 10px auto;
   text-align: center;
 }
 
 .footer-line{
   border: 0;
-  height: 1px;
-  background: #333;
+  height: 2px;
+  /*linear-gradient horizon start*/
+  background: #333; 
   background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
   background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc);
   background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc);
   background-image:      -o-linear-gradient(left, #ccc, #333, #ccc);
+  background-image:         linear-gradient(90deg, #ccc, #333, #ccc);
+  /*linear gradient horizon end*/
 }
 
 .footer-box {
+  /*centering footer-contents start*/
+  display:-webkit-box;
+  display:-ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+	-ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+	-ms-flex-align: center;
   align-items: center;
+  /*centering footer-contents end*/
   margin: 20px auto;
   text-decoration:none;
 }
@@ -143,7 +151,48 @@ footer{
   font-size: 10px;
 }
 
-#footer-icon{
-  width: 50px;
+.footer-icon-box{
+  height:5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-icon{
+  height: 5vh;
   border-radius: 10%;
+}
+
+.twitter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:5vh;
+  width: 5vh;
+  border-right:solid #333;
+  text-decoration: none;
+  margin-right: 1vh;
+}
+
+.twitter::before{
+  font-family: "Font Awesome 5 Brands";
+  content: '\f099';
+  font-size: 3vh;
+}
+
+.github{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:5vh;
+  width: 5vh;
+  border-left:solid #333;
+  text-decoration: none;
+  margin-left: 1vh;
+}
+
+.github::before{
+  font-family: "Font Awesome 5 Brands";
+  content: '\f09b';
+  font-size: 3vh;
 }

@@ -13,7 +13,8 @@ style_gallery.css
 
 #過去の改善/Features:  
 Google Fontの導入  
-構造の見直し
+構造の見直し  
+フッターの整備
 
 #今後の目標/Goals:  
 ギャラリーの整備  
