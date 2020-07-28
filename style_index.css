@@ -1,11 +1,4 @@
 @charset "UTF-8";
-@font-face{
-    font-family: 'Font Awesome 5 Brands';
-    font-style: normal;
-    font-weight: 400;
-    src: url("https://use.fontawesome.com/releases/v5.6.3/css/all.css") format("woff2");
-    font-display: swap;
-}
 
 /*universal*/
 
