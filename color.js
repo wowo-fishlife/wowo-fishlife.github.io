@@ -12,7 +12,7 @@ if (hour<6) {
         for(var i = 0; i < link.length; ++i){
             link[i].style.color ='#F28972';
         }
-        acnt[0].style.color ='#F28972';
+        acnt[0].style.color ='#F2ADA7';
 }
 /*Morning*/
 else if (hour<12) {
@@ -20,7 +20,7 @@ else if (hour<12) {
         hdr[0].style.backgroundColor ='#049DD9';
         hdr[0].style.color ='white';
         for(var i = 0; i < link.length; ++i){
-            link[i].style.color ='#F2D272';
+            link[i].style.color ='#F29829';
         }
         acnt[0].style.color ='#F29829';
 }
