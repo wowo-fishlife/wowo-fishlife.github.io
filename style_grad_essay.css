@@ -127,7 +127,7 @@ address{
     overflow-y: hidden;
     border-style: solid none none none;
     border-top-width: 1px;
-    font-size: 2.5vh;
+    font-size: 2.4vh;
 }
 
 article{
@@ -136,7 +136,7 @@ article{
     line-height: 1.9;
     letter-spacing: 0.03em;
     min-height: 36em;
-    max-height: 90vh;
+    max-height: 84vh;
 }
 
 article a {
