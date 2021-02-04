@@ -19,7 +19,8 @@
 body {
   font-family: 'Merriweather', 'Noto Serif JP', serif;
   font-size: 20px;
-  overflow: scroll;
+  overflow:hidden;
+  overflow-y:scroll;
 }
 
 #wrapper {
@@ -133,8 +134,8 @@ address{
 article{
     margin: 3em 0px;
     text-indent: 1em;
-    line-height: 1.9;
-    letter-spacing: 0.03em;
+    line-height: 2.0;
+    letter-spacing: 0.1em;
     min-height: 36em;
     max-height: 84vh;
 }
