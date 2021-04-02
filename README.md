@@ -1,8 +1,7 @@
 芸術的際網/艺术的际网/藝術的際網/Artistic-Internetting
 
 #概要/Overview:  
-これは紺魚(@haxibami)のウェブサイトを記述するパッケージです。  
-完全な初心者であるため、構造が混沌そのものです。今後修正していきます。
+これはhaxibami(@haxibami)のウェブサイトを記述するパッケージです。  
 
 #ファイル構成:  
 index.html  
@@ -20,4 +19,4 @@ Google Fontの導入
 ページの増設
 
 #最終更新日/Last modified:  
-2020/7/28
+2021/4/3
