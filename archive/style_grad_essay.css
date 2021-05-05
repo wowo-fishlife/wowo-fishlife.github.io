@@ -1,0 +1,234 @@
+@charset "UTF-8";
+@font-face{
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://use.fontawesome.com/releases/v5.14.0/css/all.css") format("woff2");
+  font-display: swap;
+}
+
+/*universal*/
+
+/*all*/
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Merriweather', 'Noto Serif JP', serif;
+  font-size: 20px;
+  overflow:hidden;
+  overflow-y:scroll;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  height:100%;
+}
+
+a image {
+  border:none;
+}
+
+/*header*/
+
+header{
+  height: 200px;
+  width: 100%;
+  position:relative; /*header-box centering*/
+  color:white;
+  white-space: nowrap;
+}
+
+#header-box{
+  display:block;
+  /*header-box centering start*/
+  position: absolute;
+  top: 50%;
+  left:50%;
+  -webkit-transform : translate(-50%, -50%);
+  transform : translate(-50%, -50%);
+  /*header-box centering end*/
+  text-align: center;
+  font-family: 'ZCOOL XiaoWei', serif;
+}
+
+h1{
+  font-weight: normal;
+  font-size:80px;
+}
+
+h2{
+  font-weight: normal;
+  font-size:30px;
+  }
+
+/*main*/
+
+main{
+  width:90vw;
+  min-height: 100vh;
+  margin: 0px auto;
+  padding-bottom:200px;
+  display:block;/*For IE10*/
+  text-align:center;
+}
+
+section{
+  margin-top:3em;
+}
+
+h3{
+  font-weight: normal;
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-size:40px;
+}
+
+p{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+ul{
+  margin: 2em auto;
+  list-style: none;
+}
+
+li {
+  margin-bottom: 1em;
+  list-style:none;
+}
+
+address{
+  margin: 1em auto;
+  font-style: normal;
+}
+
+.eng {
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*original_content*/
+
+#essay{
+    margin-top:3em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+    text-align: left;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    display: inline;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    border-style: solid none none none;
+    border-top-width: 1px;
+    font-size: 2.4vh;
+}
+
+article{
+    margin: 3em 0px;
+    text-indent: 1em;
+    line-height: 2.0;
+    letter-spacing: 0.1em;
+    min-height: 36em;
+    max-height: 84vh;
+}
+
+article a {
+    text-decoration: overline;
+  }
+
+/*footer*/
+
+footer{
+  width:90vw;
+  bottom:0;
+  margin: 20px auto 10px auto;
+  text-align: center;
+}
+
+.footer-line{
+  border: 0;
+  height: 2px;
+  /*linear-gradient horizon start*/
+  background: #333; 
+  background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+  background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc);
+  background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc);
+  background-image:      -o-linear-gradient(left, #ccc, #333, #ccc);
+  background-image:         linear-gradient(90deg, #ccc, #333, #ccc);
+  /*linear gradient horizon end*/
+}
+
+.footer-box {
+  /*centering footer-contents start*/
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+	-ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+	-ms-flex-align: center;
+  align-items: center;
+  /*centering footer-contents end*/
+  margin: 20px auto;
+  font-size: 3vh;
+  text-decoration:none;
+}
+
+.copyright{
+  font-size: 10px;
+}
+
+.footer-icon-box{
+  height:5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-icon{
+  height: 5vh;
+  border-radius: 10%;
+}
+
+.twitter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:5vh;
+  width: 5vh;
+  border-right:solid #333;
+  text-decoration: none;
+  margin-right: 1vh;
+}
+
+.twitter::before{
+  font-family: "Font Awesome 5 Brands";
+  content: '\f099';
+  font-size: 3vh;
+}
+
+.github{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:5vh;
+  width: 5vh;
+  border-left:solid #333;
+  text-decoration: none;
+  margin-left: 1vh;
+}
+
+.github::before{
+  font-family: "Font Awesome 5 Brands";
+  content: '\f09b';
+  font-size: 3vh;
+}
