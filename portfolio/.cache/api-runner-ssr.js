@@ -6,6 +6,10 @@ var plugins = [{
       name: 'gatsby-plugin-typography',
       plugin: require('/home/haxibami/haxibami.github.io/portfolio/node_modules/gatsby-plugin-typography/gatsby-ssr'),
       options: {"plugins":[],"pathToConfigModule":"src/utils/typography"},
+    },{
+      name: 'gatsby-plugin-google-fonts',
+      plugin: require('/home/haxibami/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
+      options: {"plugins":[],"fonts":["ZCOOL XiaoWei","Merriweather","Roboto","Noto Serif JP"],"display":"swap"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
