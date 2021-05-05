@@ -1,0 +1,35 @@
+header{
+  height: 200px;
+  width: 100%;
+  position:relative; /*header-box centering*/
+  white-space: nowrap;
+  background-color: #049DD9;
+  color:white;
+}
+  
+.headerbox{
+  display:block;
+  /*header-box centering start*/
+  position: absolute;
+  top: 50%;
+  left:50%;
+  -webkit-transform : translate(-50%, -50%);
+  transform : translate(-50%, -50%);
+  /*header-box centering end*/
+  text-align: center;
+  font-family: 'ZCOOL XiaoWei', serif;
+}
+  
+.title{
+  font-weight: normal;
+  font-size:80px;
+}
+
+.subtitle{
+  font-weight: normal;
+  font-size:30px;
+}
+
+.accent{
+  color: #F29829;
+}

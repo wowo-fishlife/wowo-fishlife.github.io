@@ -1,0 +1,1 @@
+module.exports = require("/home/haxibami/haxibami.github.io/src/utils/typography")

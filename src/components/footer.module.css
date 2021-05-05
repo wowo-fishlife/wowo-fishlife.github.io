@@ -1,0 +1,70 @@
+footer{
+  width:90vw;
+  bottom:0;
+  margin: 20px auto 10px auto;
+  text-align: center;
+}
+
+.footerline{
+  border: 0;
+  height: 2px;
+  /*linear-gradient horizon start*/
+  background: #333; 
+  background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+  background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc);
+  background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc);
+  background-image:      -o-linear-gradient(left, #ccc, #333, #ccc);
+  background-image:         linear-gradient(90deg, #ccc, #333, #ccc);
+  /*linear gradient horizon end*/
+}
+
+.footerbox {
+  /*centering footer-contents start*/
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+	-ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+	-ms-flex-align: center;
+  align-items: center;
+  /*centering footer-contents end*/
+  margin: 20px auto;
+  font-size: 3vh;
+  text-decoration:none;
+}
+
+.copyright{
+  font-size: 10px;
+}
+
+.footericonbox{
+  height:5vh;
+  width: 5vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.twitter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:5vh;
+  width: 5vh;
+  border-right:solid #333;
+  text-decoration: none;
+  margin-right: 1vh;
+}
+
+
+.github{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:5vh;
+  width: 5vh;
+  border-left:solid #333;
+  text-decoration: none;
+  margin-left: 1vh;
+}
