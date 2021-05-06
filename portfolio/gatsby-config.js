@@ -12,8 +12,9 @@ module.exports = {
   plugins: [
     `gatsby-plugin-image`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     {
-      resolve:`gatsby-plugin-sharp`,
+      resolve:`gatsby-plugin-manifest`,
       options: {
         icon: 'src/images/icon.jpeg',
 
