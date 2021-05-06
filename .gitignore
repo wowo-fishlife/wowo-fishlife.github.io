@@ -1,2 +1,7 @@
 hello-world/
-portfolio/node_modules
+portfolio/node_modules/
+portfolio/.cache/
+portfolio/grad_essay/
+portfolio/page-data/
+portfolio/public/
+portfolio/static/

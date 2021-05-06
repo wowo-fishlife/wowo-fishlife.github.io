@@ -3,7 +3,7 @@
 body {
   font-family: 'Merriweather', 'Noto Serif JP', serif;
   font-size: 20px;
-  overflow: scroll;
+  overflow: hidden;
 }
 
 #wrapper {
