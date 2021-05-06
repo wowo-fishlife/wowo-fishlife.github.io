@@ -30,10 +30,10 @@ module.exports = {
       resolve:`gatsby-plugin-google-fonts`,
       options:  {
         fonts:[
-          `ZCOOL XiaoWei\:500`,
-          `Merriweather\:500`,
+          `ZCOOL XiaoWei\:400`,
+          `Merriweather\:400`,
           `Noto Serif JP\:500`,
-          `Roboto\:500`,
+          `Roboto\:400`,
         ],
         display:'swap'
       }
