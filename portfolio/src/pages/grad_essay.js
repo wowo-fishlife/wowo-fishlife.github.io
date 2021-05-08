@@ -1,6 +1,5 @@
 import React from "react"
 import Layout from "../components/layout"
-import "../styles/layout.css"
 import "../styles/style_grad_essay.css"
 
 export default function GradEssay() {
