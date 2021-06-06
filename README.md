@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://haxibami.github.io">
-    <img alt="haxibami" src="./src/images/apple_icon.jpeg" width="60" />
+    <img alt="haxibami" src="portfolio/src/images/apple_icon.jpeg" width="60" />
   </a>
 </p>
 <h1 align="center">

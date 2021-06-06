@@ -47,6 +47,6 @@
     "url": "https://github.com/haxibami/haxibami.github.io/issues"
   },
   "homepage": "https://haxibami.github.io",
-  "main": "index.html",
+  "main": "gatsby-config.js",
   "author": "haxibami"
 }
