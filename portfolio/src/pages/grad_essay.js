@@ -8,7 +8,7 @@ export default function GradEssay() {
     <div>
     <section>
         <h3>About</h3>
-            <p>2021-5：</p>
+            <p>2021-6：</p>
             <p>現状は仮運用です。内容・レイアウトの完成は今後の更新をお待ちください。</p>
       </section>
 

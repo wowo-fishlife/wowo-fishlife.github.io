@@ -16,25 +16,18 @@ Sorry for the dirty directory tree.
 A quick look at the files and directories you'll see in this repository.
 
     .
-    ├── index.html
-    ├── (generated raw files for GitHub pages)
-    ├── portfolio (main files in this dir)
+    ├── portfolio (main source code)
           ├── src
                 ├── pages
                 ├── components
                 ├── styles
                 ├── images
                 └── utils
-          ├── .prettierignore
-          ├── .prettierrc
           ├── LICENSE
           ├── gatsby-config.js
           ├── package-lock.json
           └── package.json
-    ├── grad_essay
-    ├── page-data
-    ├── static
-    ├── icons
+    ├── docs (generated website files)
     ├── .gitignore
     └── README.md
 

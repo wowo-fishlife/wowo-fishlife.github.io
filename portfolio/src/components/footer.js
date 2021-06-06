@@ -12,7 +12,7 @@ const footer = () => (
     <div className={Styles.footerbox}>
       <a className={Styles.twitter} href="https://twitter.com/haxibami" target="_new"><FontAwesomeIcon icon={faTwitterSquare} /></a>
       <div className={Styles.footericonbox}>
-        <Link to="/"><StaticImage src="../images/icon.jpeg" alt="御真影" imgStyle={{borderRadius: 10}} /></Link>
+        <Link to="/"><StaticImage src="../images/icon.jpeg" alt="御真影" imgStyle={{borderRadius: 50}} /></Link>
       </div>
       <a className={Styles.github} href="https://github.com/haxibami" target="_new"><FontAwesomeIcon icon={faGithubSquare} /></a>
     </div>

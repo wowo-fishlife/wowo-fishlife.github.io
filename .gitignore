@@ -1,7 +1,7 @@
-hello-world/
-portfolio/node_modules/
 portfolio/.cache/
-portfolio/grad_essay/
+portfolio/node_modules
 portfolio/page-data/
 portfolio/public/
 portfolio/static/
+portfolio/.prettierignore
+portfolio/.prettierrc
