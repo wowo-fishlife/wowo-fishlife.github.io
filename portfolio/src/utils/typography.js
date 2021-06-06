@@ -7,7 +7,7 @@ const typography = new Typography({
     'ZCOOL XiaoWei',
   ],
   bodyFontFamily: [
-    'Merriweather', 'Noto Serif JP',
+    'Noto Serif JP',
   ],
 })
 
