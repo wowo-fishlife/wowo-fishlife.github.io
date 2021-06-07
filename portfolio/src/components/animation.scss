@@ -1,0 +1,61 @@
+.door {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+  animation-name: fadein;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  @keyframes fadein {
+    0%{opacity: 0;}
+    25%{opacity: 70;}
+    50%{opacity: 90;}
+    100%{opacity: 0;}
+  }
+
+  .bullet1{
+    color: white;
+    text-align: center;
+    animation-name: b1;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+    @keyframes b1 {
+      0%{opacity: 0; transform: rotate(30deg) translateX(-85vw) translateY(0);}
+      25%{opacity: 70; transform: rotate(30deg) translateX(0) translateY(0);}
+      75%{opacity: 90; transform: rotate(-30deg) translateX(0) translateY(0);}
+      100%{opacity: 0; transform: rotate(-30deg) translateX(-85vw) translateY(0);}
+    }
+  }
+
+  .bullet2{
+    color: white;
+    text-align: center;
+    font-family: 'ZCOOL XiaoWei';
+    transform: rotate(30deg) translateX(85vw) translateY(50vw);
+    animation-name: b2;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+    @keyframes b2 {
+      0%{opacity: 0; transform: rotate(210deg) translateX(-85vw) translateY(0);}
+      25%{opacity: 70; transform: rotate(210deg) translateX(0) translateY(0);}
+      75%{opacity: 90; transform: rotate(150deg) translateX(0) translateY(0);}
+      100%{opacity: 0; transform: rotate(150deg) translateX(-85vw) translateY(0);}
+    }
+  }
+}
+
