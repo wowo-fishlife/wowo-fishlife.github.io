@@ -14,6 +14,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`,
+    `gatsby-transformer-json`,
     {
       resolve:`gatsby-plugin-manifest`,
       options: {
@@ -37,6 +38,13 @@ module.exports = {
           `Roboto\:400`,
         ],
         display:'swap'
+      }
+    },
+    {
+      resolve:`gatsby-source-filesystem`,
+      options: {
+        name: `data`,
+        path: `./src/data/`,
       }
     }
   ],

@@ -1,10 +1,13 @@
 import React from "react"
 import Layout from "../components/layout"
+import Door from "../components/animation.js"
 import "../styles/style.css"
+
 
 export default function Home() {
   return(
   <Layout>
+    <Door></Door>
     <div>
       <section>
         <h3>News</h3>
