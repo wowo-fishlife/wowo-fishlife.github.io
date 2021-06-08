@@ -21,7 +21,7 @@
     0%{opacity: 0;}
     25%{opacity: 70;}
     50%{opacity: 90;}
-    100%{opacity: 0;}
+    100%{opacity: 0 ; z-index: -1;}
   }
 
   .bullet1{
